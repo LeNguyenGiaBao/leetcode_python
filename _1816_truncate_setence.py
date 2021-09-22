@@ -12,7 +12,7 @@ def truncateSentence(s, k):
     # result+=l[k-1]
     # return result
 
-    
+    s+=" "
     result = ""
     count_space = 0
     for i in s:
